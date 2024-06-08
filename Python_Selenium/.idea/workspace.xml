@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="226137bc-a117-4966-af59-7224a481aa4e" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC1.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-screenshot-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2haExjoZY3dbZcqPLrh7DyR1Uvf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,8 +27,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/pythonProject1",
+    "git-widget-placeholder": "Vidhyasm",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/PythonSelenium1/PythonSelenium1/Python_Selenium",
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
@@ -69,6 +49,17 @@
       <updated>1717824037203</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />

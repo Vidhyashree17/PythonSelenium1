@@ -18,11 +18,5 @@ LoginTest
     input text      id=sign-password        Vidhyasm17
     sleep       2s
     click element       //button[contains(text(),'Sign up')]
-    #for verification unable to inspect popup message(signup successfull) that appears after signup
-
-
-
-
-
-
-
+    #for verification unable to inspect popup message( This user already exist)
+    close browser
