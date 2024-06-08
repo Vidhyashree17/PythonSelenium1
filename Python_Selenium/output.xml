@@ -1,81 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-06-08T15:59:45.032420" rpa="false" schemaversion="5">
-<suite id="s1" name="TC1" source="C:\Users\User\PycharmProjects\pythonProject1\TestCases\TC1.robot">
+<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-06-08T21:08:05.105386" rpa="false" schemaversion="5">
+<suite id="s1" name="TC10" source="C:\Users\User\PycharmProjects\PythonSelenium1\PythonSelenium1\Python_Selenium\TestCases\TC10.robot">
 <test id="s1-t1" name="LoginTest" line="9">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-06-08T15:59:45.220203" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com/'.</msg>
+<msg time="2024-06-08T21:08:05.286044" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com/'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-06-08T15:59:45.220203" elapsed="4.395166"/>
+<status status="PASS" start="2024-06-08T21:08:05.286044" elapsed="5.938762"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-06-08T15:59:51.615734" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-06-08T21:08:13.225529" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-06-08T15:59:49.615369" elapsed="2.000365"/>
+<status status="PASS" start="2024-06-08T21:08:11.225319" elapsed="2.000210"/>
 </kw>
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-06-08T15:59:51.615734" level="INFO">Clicking link 'Xpath://a[@id='login2']'.</msg>
+<msg time="2024-06-08T21:08:13.225529" level="INFO">Clicking link 'Xpath://a[@id='login2']'.</msg>
 <arg>Xpath://a[@id='login2']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-06-08T15:59:51.615734" elapsed="0.153621"/>
+<status status="PASS" start="2024-06-08T21:08:13.225529" elapsed="0.068575"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-06-08T15:59:53.771612" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-06-08T21:08:15.294290" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-06-08T15:59:51.770863" elapsed="2.001289"/>
+<status status="PASS" start="2024-06-08T21:08:13.294104" elapsed="2.000186"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-06-08T15:59:53.773573" elapsed="0.064005"/>
+<status status="PASS" start="2024-06-08T21:08:15.294290" elapsed="0.040642"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-06-08T15:59:55.841206" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-06-08T21:08:17.336422" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-06-08T15:59:53.840808" elapsed="2.000398"/>
+<status status="PASS" start="2024-06-08T21:08:15.335992" elapsed="2.000430"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-06-08T15:59:55.843325" level="INFO">Typing text 'vidhyasm0517@gmail.com' into text field 'id=loginusername'.</msg>
+<msg time="2024-06-08T21:08:17.336422" level="INFO">Typing text 'vidhyashreesm05@gmail.com' into text field 'id=loginusername'.</msg>
 <arg>id=loginusername</arg>
-<arg>vidhyasm0517@gmail.com</arg>
+<arg>vidhyashreesm05@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-06-08T15:59:55.842451" elapsed="0.237690"/>
+<status status="PASS" start="2024-06-08T21:08:17.336422" elapsed="0.103734"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-06-08T15:59:58.083217" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-06-08T21:08:19.440340" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-06-08T15:59:56.080141" elapsed="2.003076"/>
+<status status="PASS" start="2024-06-08T21:08:17.440156" elapsed="2.000184"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-06-08T15:59:58.083217" level="INFO">Typing text 'Vidhyasm1759' into text field 'id=loginpassword'.</msg>
+<msg time="2024-06-08T21:08:19.441256" level="INFO">Typing text 'Vidhya123' into text field 'id=loginpassword'.</msg>
 <arg>id=loginpassword</arg>
-<arg>Vidhyasm1759</arg>
+<arg>Vidhya123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-06-08T15:59:58.083217" elapsed="0.199438"/>
+<status status="PASS" start="2024-06-08T21:08:19.441256" elapsed="0.080712"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-06-08T16:00:00.292694" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-06-08T21:08:21.524836" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-06-08T15:59:58.290924" elapsed="2.001770"/>
+<status status="PASS" start="2024-06-08T21:08:19.524490" elapsed="2.000346"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-06-08T16:00:00.293860" level="INFO">Clicking element 'Xpath://button[contains(text(),'Log in')]'.</msg>
+<msg time="2024-06-08T21:08:21.524836" level="INFO">Clicking element 'Xpath://button[contains(text(),'Log in')]'.</msg>
 <arg>Xpath://button[contains(text(),'Log in')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-06-08T16:00:00.293860" elapsed="0.098544"/>
+<status status="PASS" start="2024-06-08T21:08:21.524836" elapsed="0.048598"/>
 </kw>
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-06-08T16:00:00.392990" elapsed="2.215328"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-08T21:08:26.574403" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-08T21:08:21.573934" elapsed="5.000469"/>
 </kw>
-<status status="PASS" start="2024-06-08T15:59:45.220203" elapsed="17.388115"/>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-08T21:08:26.574403" level="INFO">Clicking element 'Xpath://a[@id='logout2']'.</msg>
+<arg>Xpath://a[@id='logout2']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-08T21:08:26.574403" elapsed="0.457225"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-08T21:08:29.033219" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-08T21:08:27.032392" elapsed="2.000827"/>
+</kw>
+<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
+<arg>Xpath://a[@id='login2']</arg>
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<status status="PASS" start="2024-06-08T21:08:29.033219" elapsed="0.029516"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-08T21:08:31.063281" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-08T21:08:29.062735" elapsed="2.000546"/>
+</kw>
+<status status="PASS" start="2024-06-08T21:08:05.286044" elapsed="25.777237"/>
 </test>
-<status status="PASS" start="2024-06-08T15:59:45.032420" elapsed="17.575898"/>
+<status status="PASS" start="2024-06-08T21:08:05.105386" elapsed="25.957895"/>
 </suite>
 <statistics>
 <total>
@@ -84,9 +109,10 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC10">TC10</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2024-06-08T21:08:05.089141" level="WARN">Error in file 'C:\Users\User\PycharmProjects\PythonSelenium1\PythonSelenium1\Python_Selenium\TestCases\TC10.robot' on line 8: Singular section headers like '*** Test Case ***' are deprecated. Use plural format like '*** Test Cases ***' instead.</msg>
 </errors>
 </robot>
