@@ -1,7 +1,6 @@
 # PythonSelenium1
 
 * To run the testcases, command is robot TestCases\TC1.robot
-* Please find the path to get the executed reports C:\Users\User\PycharmProjects\PythonSelenium1\PythonSelenium1\Python_Selenium
 
 Functional Issues are:
 
