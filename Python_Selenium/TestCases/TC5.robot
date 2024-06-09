@@ -6,6 +6,7 @@ ${browser}  chrome
 ${url}  https://www.demoblaze.com/
 
 *** Test Cases ***
+
 LoginTest
     open browser        ${url}  ${browser}
     sleep       2s
