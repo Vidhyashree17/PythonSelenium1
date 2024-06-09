@@ -1,8 +1,10 @@
 # PythonSelenium1
 
+# Python-Selenium-Test-Automation-RobotFramework-for-an-Ecommerce-Application
+
 * To run the testcases, command is robot TestCases\TC1.robot
 
-Functional Issues are:
+#Functional Issues are:
 
 1. When we get popup message after login, we are unable to inspect the ok button.
 2. When we get popup message after login, unable to inspect the message that we are getting.
