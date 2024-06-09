@@ -1,24 +1,22 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library     SeleniumLibrary
+Resource    ../Resources/Login_Resources.robot
+Suite Setup     Open Browser
+Suite Teardown  Close Browsers
+Test Template   Invalid login
 
-*** Variables ***
-${browser}  chrome
-${url}  https://www.demoblaze.com/
+*** Test Cases ***      username        password
+Right user empty pass       vidhyashreesm05@gmail.com       ${Empty}
+Right user wrong pass       vidhyasm0517@gmail.com      xyz
+wrong user right pass       vidhyhreesm05@gmail.com     Vidhya123
+wrong user empty pass       vidhyhreesm05@gmail.com     ${Empty}
 
-*** Test Cases ***
-LoginTest
-    open browser        ${url}  ${browser}
-    sleep       2s
-    click link       Xpath://a[@id='login2']
-    sleep       2s
-    maximize browser window
-    sleep       2s
-    input text      id=loginusername        vidhyashreesm05@gmail.com
-    sleep       2s
-    input text      id=loginpassword        Vidhya123
-    sleep       2s
-    click element       Xpath://button[contains(text(),'Log in')]
-    sleep       2s
-    #for verification
-    element should be enabled     //a[@id='nameofuser']
-    close browser
+
+*** Keywords ***
+Invalid login
+    [Arguments]     ${username}     ${password}
+    click login link
+    Input username  ${username}
+    Input pwd   ${password}
+    click login button
+    Error message should be visible

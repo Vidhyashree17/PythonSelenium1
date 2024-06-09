@@ -2,8 +2,8 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${browser}  chrome
-${url}  https://www.demoblaze.com/
+${browser}      chrome
+${url}      https://www.demoblaze.com/
 
 *** Test Cases ***
 LoginTest
